@@ -2,18 +2,6 @@
 # November 20 2025
 # Automotive Calculator
 
-# Joe's Automotive performs the following routine maintenance service:
-
-# Oil Change - $30.00
-# Lube Job - $20.00
-# Radiator Flush - $40.00
-# Transmission Fluid - $100.00
-# Inspection - $35.00
-# Muffler replacement - $200.00
-# Tire Rotation - $20.00
-# Write a GUI with check buttons that allows the user to select any or all of these services.
-# When the user clicks a button, the total charges should be displayed.
-
 import tkinter as tk
 
 class AutomotiveCalculatorGUI():
@@ -34,7 +22,7 @@ class AutomotiveCalculatorGUI():
         self.result_label = tk.Label(self.root, textvariable=self.result_var)
         self.result_label.pack(pady=10)
 
-        # Create special variables
+        # Create checkbox variables
         self.oil_var = tk.IntVar()
         self.lube_var = tk.IntVar()
         self.radiator_var = tk.IntVar()
